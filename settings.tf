@@ -7,6 +7,6 @@ terraform {
 }
 
 provider "teamcity" {
-  host = "https://teamcity-terraform-demo.teamcity.com/"
-  token = "env.TEAMCITY_TOKEN"
+  host = "https://teamcity-terraform-demo.teamcity.com"
+  token = var.teamcity_token
 }
